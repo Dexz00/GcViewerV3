@@ -1,6 +1,6 @@
 # GcViewerV3
 ```lua
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7bf1d042a5757c984086fc4efa90c79.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/caffbda8eeb690826d7f1911098bd3f2.lua"))()
 ```
 <br/>
 
