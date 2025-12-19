@@ -4,10 +4,8 @@ return setmetatable({}, {
             return "1.0"
         elseif key == "__log" then
             return {
-                "[/] Rewrote core functions",
-                "[/] Improved cache and filter overall",
-                "[/] Fixed script filtering",
-                "[+] Added closure info > inline,loop etc"
+                "[+] Added isexecutorfunc check if it exist",
+                "[+] Added save function output"
             }
         end
         return nil 
