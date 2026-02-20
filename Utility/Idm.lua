@@ -995,7 +995,7 @@ Lib.CodeFrame = (function()
 
 	function funcs.MakeEditorFrame(self)
 		local frame = Instance.new('TextButton')
-		frame.BackgroundTransparency = 1
+		frame.BackgroundTransparency = 0
 		frame.TextTransparency = 1
 		frame.BackgroundColor3=Color3.fromRGB(40, 40, 40);
 		frame.BorderSizePixel=0; 
@@ -1965,6 +1965,7 @@ Lib.CodeFrame = (function()
 		self.Colors = colors
 		self.Frame.LineNumbers.TextColor3 = colors.Text
 		self.Frame.BackgroundColor3 = colors.Background
+		self.Frame.BackgroundTransparency = 0
 	end
 
 	local mt = {__index = funcs}
